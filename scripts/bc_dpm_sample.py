@@ -1,13 +1,16 @@
 import sys
 import os
-sys.path.append(os.path.abspath('./'))
+
+#sys.path.append(os.path.abspath('./'))
+sys.path.append('/kaggle/working/BC_DPM')
+
 print(sys.path)
+import resizer
 
 
 import argparse
 
 
-# sys.path.append('../guided_diffusion')
 
 import blobfile as bf
 import numpy as np
